@@ -1,4 +1,5 @@
 ## Discord Solutions Winches
+![Winch System](https://user-images.githubusercontent.com/112611821/198178129-5797a8d9-a29e-4e5c-833d-3cf231b123f2.png)
 
 
 
