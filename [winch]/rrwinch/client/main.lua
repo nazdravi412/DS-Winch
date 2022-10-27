@@ -315,9 +315,9 @@ Citizen.CreateThread(function()
             if Config.displayStatus and IsMinimapRendering() then
                 local vehicleName1 = GetLabelText(GetDisplayNameFromVehicleModel(GetEntityModel(firstEntity)))
                 local vehicleName2 = GetLabelText(GetDisplayNameFromVehicleModel(GetEntityModel(secondEntity)))
-                Draw2DText(0.20, 0.90, 0.3, string.format(Config.texts.towCarName, vehicleName1))
-                Draw2DText(0.20, 0.92, 0.3, string.format(Config.texts.towingName, vehicleName2))
-                Draw2DText(0.20, 0.94, 0.3, string.format(Config.texts.ropeLength, _g.length))
+                Draw2DText(0.84, 0.93, 0.3, string.format(Config.texts.towCarName, vehicleName1))
+                Draw2DText(0.84, 0.95, 0.3, string.format(Config.texts.towingName, vehicleName2))
+                Draw2DText(0.84, 0.97, 0.3, string.format(Config.texts.ropeLength, _g.length))
             end
         end
         if _g.firstEntity and not _g.secondEntity then
