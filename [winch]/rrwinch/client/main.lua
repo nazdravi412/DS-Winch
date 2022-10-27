@@ -31,7 +31,6 @@ end, false)
 
 -- Functions
 function SetTowVehicle(vehicle)
-    -- 检测是否已经在牵引中
     DebugPrint("_g.isTowing: " .. (_g.isTowing and "true" or "false"))
     if not _g.isTowing and not _g.secondEntity then
         local vehicleName = GetLabelText(GetDisplayNameFromVehicleModel(GetEntityModel(vehicle)))

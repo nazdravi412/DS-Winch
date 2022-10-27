@@ -20,9 +20,9 @@ Config = {
     -- Towing car offset
     towingOffset  = vector3(0.0, 0.0, 0.3),
     -- The bone name of the tow car
-    towCarBone    = "window_rf1",
+    towCarBone    = "engine",
     -- The bone name of the car that will be towed
-    towBone       = "engine",
+    towBone       = "window_rf1",
     -- Translate
     texts         = {
         towCarName = "Winch Car Name ~g~%s",

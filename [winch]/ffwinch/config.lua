@@ -25,17 +25,6 @@ Config = {
     towBone       = "engine",
     -- Translate
     texts         = {
-        --[[ towCarName = "牽引車輛 ~g~%s",
-        towingName = "被拖車輛 ~o~%s",
-        ropeLength = "繩索長度 ~y~%.2f",
-        helpNotice = "按下 ~INPUT_VEH_ROOF~ 選擇被牽引車輛\n按下 ~INPUT_FRONTEND_RRIGHT~ 取消牽引模式",
-        ropeBroken = "绳索由于车辆摧毁而断开",
-        carTooFast = "绳索由于车辆速度过快而断开",
-        towCarDone = "已设置 %s 为牵引车辆，请设置被牵引车辆",
-        towingDone = "已设置 %s 为被牵引车辆",
-        notAllowed = "该车辆不能用于牵引",
-        tooFarAway = "被牵引车辆距离太远",
-        towRemoved = "已解除牵引", ]]--
         towCarName = "Winch Car Name ~g~%s",
         towingName = "Car Being Winched Name ~o~%s",
         ropeLength = "inch Length ~y~%.2f",
