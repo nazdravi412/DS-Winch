@@ -16,8 +16,8 @@
 
 ## Installation
 1. Clone or download this repo
-2. Copy the `[winch]` folder to your server resources folder
-3. Add `start [winch]` to your server.cfg
+2. Copy the `[dswinch]` folder to your server resources folder
+3. Add `start [dswinch]` to your server.cfg
 4. Or add `ensure [winch]` to your server.cfg
 5. Restart the server
 
